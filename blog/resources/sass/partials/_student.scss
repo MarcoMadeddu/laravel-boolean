@@ -1,0 +1,38 @@
+h1{
+    font-size:50px;
+    color: $blue;
+    margin: 30px auto;
+}
+.students{
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #e9ebf1;
+    .student{
+        flex-basis: 45%;
+        margin: 50px 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        img{
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        .info{
+            color: $blue;
+            h3{
+                font-size:20px;
+            }
+            h4{
+                font-size:15px;
+                margin: 10px auto;
+            }
+            p{
+                font-size:15px;
+            }
+        }
+    }
+}

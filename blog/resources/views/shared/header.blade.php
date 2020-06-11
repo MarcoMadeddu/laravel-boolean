@@ -1,7 +1,10 @@
 
 <header class="main-header">
         <div class="header-img">
-            <img src="https://www.boolean.careers/images/common/logo.png" alt="Logo" srcset="">
+            <a href="{{route('static-page.home')}}">
+                <img href  src="https://www.boolean.careers/images/common/logo.png" alt="Logo" srcset="">
+            </a>
+            
         </div>
            
            

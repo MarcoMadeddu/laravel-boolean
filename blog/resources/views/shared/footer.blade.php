@@ -6,12 +6,25 @@
                 </div>
 
                 <div class="footer-link">
+                <nav>
                     <ul>
-                        <li><a href="">Lezione Gratuita</a></li>
-                        <li><a href="">Domande frequenti</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Lavora con noi</a></li>
+                    <li>
+                        <a href="{{route('static-page.home')}}">Home</a>
+                    </li>
+                    <li>
+                        <a href="{{route('static-page.faq')}}">Domande Frequenti</a>
+                    </li>
+                    <li>
+                        <a href="{{route('static-page.privacy')}}">Privacy</a>
+                    </li>
+
+                    <li>
+                        <a href="">La nostra storia </a>
+                    </li>
+                        <!-- <li> <a href="">Lezione gratuita</a></li>
+                        <li> <a href="">Candidatura</a></li> -->
                     </ul>
+                </nav>
                 </div>
             </div>
         </footer>

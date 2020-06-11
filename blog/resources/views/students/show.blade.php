@@ -1,9 +1,8 @@
 @extends('layouts.main')
 @section('main-content')
-    <h1>Nome Studente</h1>
+    <h1>{{$student['nome']}}</h1>
 
             <div class="student">
-                <header>
                     <img src="{{ $student['img'] }}" alt="{{ $student['nome'] }}">
                     <div class="info">
                         <h3>{{ $student['nome'] }} ({{ $student['età'] }})</h3>
@@ -13,6 +12,5 @@
                         </h4>
                         <p>{{$student['descrizione']}}</p>
                     </div>
-                </header>
             </div>
 @endsection
