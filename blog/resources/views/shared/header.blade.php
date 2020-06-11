@@ -8,11 +8,21 @@
         <div class="header-link">
                 <nav>
                     <ul>
-                        <li> <a href="" class="active">Home</a></li>
-                        <li> <a href="">Corso</a></li>
-                        <li> <a href="">Dopo il corso</a></li>
-                        <li> <a href="">Lezione gratuita</a></li>
-                        <li> <a href="">Candidatura</a></li>
+                    <li>
+                        <a @if (Request::route()->getName() == 'static-page.home') class ="active" @endif href="{{route('static-page.home')}}">Home</a>
+                    </li>
+                    <li>
+                        <a @if (Request::route()->getName() == 'static-page.faq') class ="active" @endif href="{{route('static-page.faq')}}">Domande Frequenti</a>
+                    </li>
+                    <li>
+                        <a @if (Request::route()->getName() == 'static-page.privacy') class ="active" @endif href="{{route('static-page.privacy')}}">Privacy</a>
+                    </li>
+
+                    <li>
+                        <a @if (Request::route()->getName() == 'student.index') class ="active" @endif href="{{route('student.index')}}">I nostri ex studenti</a>
+                    </li>
+                        <!-- <li> <a href="">Lezione gratuita</a></li>
+                        <li> <a href="">Candidatura</a></li> -->
                     </ul>
                 </nav>
             </div>
