@@ -1,0 +1,27 @@
+.jumbotron{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $blue;
+    .jumbo-content{
+        width: 90%;
+        display:flex;
+        align-items: center;
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            margin: 20px auto;
+        }
+        ul{
+            margin-left:20px;
+        }  
+    }
+    .jumbo-img{
+        img{
+            max-width: 700px;
+        }
+    }
+}
