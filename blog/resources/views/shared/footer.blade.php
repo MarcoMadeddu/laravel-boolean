@@ -28,5 +28,7 @@
                 </div>
             </div>
         </footer>
+        <!-- JAVA SCRIPT -->
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

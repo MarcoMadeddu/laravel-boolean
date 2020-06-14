@@ -1,6 +1,6 @@
 @include('shared.head')
-    <main class="main-content">
+    <div class="main-content">
         @include('shared.header')
         @yield('main-content')
-    </main>
+    </div>
 @include('shared.footer')

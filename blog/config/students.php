@@ -1,10 +1,12 @@
 <?php
 
 return [
+    'students' => [
     [
         'id' => 1,
         'img' =>'https://www.boolean.careers/images/students/biagini.png',
         'nome' => 'Alessandro Biagini',
+        'slug' => 'alessandro-biagini',
         'età' => 25,
         'genere' => 'm',
         'azienda' => 'DISC SPA',
@@ -16,6 +18,7 @@ return [
         'id' => 2,
         'img' =>'https://www.boolean.careers/images/students/poggini.png',
         'nome' => 'Paola Poggini',
+        'slug' => 'paola-poggini',
         'età' => 24,
         'genere' => 'f',
         'azienda' => 'Prima Assicurazioni',
@@ -27,6 +30,7 @@ return [
         'id' => 3,
         'img' =>"https://www.boolean.careers/images/students/masetti.png",
         'nome' => 'Loana Masetti',
+        'slug' => 'loana-masetti',
         'età' => 36,
         'genere' => 'f',
         'azienda' => 'The Zen Agency ',
@@ -38,11 +42,19 @@ return [
         'id' => 4,
         'img' =>'https://www.boolean.careers/images/students/patruno.png',
         'nome' => 'Davide Paturo',
+        'slug' => 'davide-paturo',
         'età' => 29,
         'genere' => 'm',
         'azienda' => 'ArmadioVerde',
         'ruolo' => 'web developer',
         'descrizione' => 'Dopo la laurea magistrale in scienze umanistiche e sociali, si concentra sullo sviluppo di strategie marketing. Decide di cambiare vita, questa volta puntando sullo sviluppo Front-End.'
+    ],
+], 
+
+    'genders'=>[
+        'all',
+        'm',
+        'f',
     ],
 ]
 ?>

@@ -3,6 +3,16 @@ h1{
     color: $blue;
     margin: 30px auto;
 }
+.students-filter{
+    select{
+        width: 150px;
+        text-align: center;
+        padding: 10px;
+        color: $blue;
+        border-radius: 10px;
+        outline: none;
+    }
+}
 .students{
     margin: 50px auto;
     display: flex;
