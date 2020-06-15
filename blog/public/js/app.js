@@ -16105,10 +16105,13 @@ $(document).ready(function () {
         filter: gender
       }
     }).done(function (res) {
-      if (res.response.lenght > 0) {
+      if (res.response.length > 0) {
+        container.children().remove();
+
         for (var i = 0; i < res.response.length; i++) {
           var item = res.response[i];
           var context = {
+            slug: item.slug,
             img: item.img,
             nome: item.nome,
             eta: item.eta,
@@ -16121,7 +16124,7 @@ $(document).ready(function () {
           container.append(output);
         }
       } else {
-        console.log('error');
+        console.log('cannot load data');
       }
     }).fail(function () {
       console.log('API error');

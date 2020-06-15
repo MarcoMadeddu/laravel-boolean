@@ -35,7 +35,7 @@ class StudentController extends Controller
             $result['error'] = 'Filter not allowed';
         }
 
-        return response()->json($result['response']);
+        return response()->json($result);
         // dd($gender);
     }
 }
